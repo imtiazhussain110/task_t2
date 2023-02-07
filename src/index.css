@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "segoe ui" !important;
+}
+
+@media (max-width: 1390px) and (min-width: 1243px) {
+  .textSmall {
+    font-size: 20px !important;
+  }
+
+  .customActionBtnStyle {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 1097px) and (max-width: 1243px) {
+  .textSmall {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 1097px) {
+  .textCol-action {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+  .customActionBtnStyle {
+    margin-inline: 10px;
+  }
+}
+
+@media (max-width: 1243px) {
+  .customActionBtn {
+    flex-direction: column !important;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .paymentSection {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 21px !important;
+  }
+
+  .paymentSecondSection {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1494px) and (max-width: 1621px) {
+  .cardHeading {
+    font-size: 22px !important;
+  }
+
+  .cardSubtitle {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 1491px) {
+  .cardBody {
+    flex-direction: column;
+  }
+
+  .cardHr {
+    display: none;
+  }
+
+  .cardFoter {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px !important;
+  }
+
+  .cardFoterWidth {
+    width: 100% !important;
+    margin-top: 0;
+  }
+
+  .cardImg {
+    height: 100%;
+  }
+}
+
+@media (max-width: 1491px) and (min-width: 1263px) {
+  .cardImg {
+    height: 209px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .dashboardGraphContainer {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 29px !important;
+  }
+
+  .dashboardGraphs {
+    width: 100%;
+  }
+}
